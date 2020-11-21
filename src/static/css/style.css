@@ -1,0 +1,28 @@
+.container-fluid{
+  background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)),url(../img/main-background.jpg);
+  background-repeat:no-repeat; 
+  /*background-attachment:fixed;*/
+  background-size:cover;
+  background-position:center;
+}
+
+.image__Image-main{
+  max-width:300px;
+  max-height:500px!important;
+}
+
+.image__Image-background{
+  position:absolute;
+  bottom:0;
+  -webkit-filter: brightness(50%);
+  height:300px;
+}
+
+.name__Name{
+  font-wight:bold;
+  text-align:center;
+}
+
+.list-group-item{
+  background-color:rgba(0,0,0,.3)!important;
+}
